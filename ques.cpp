@@ -1,4 +1,14 @@
-#include<iostream>
+//pseudo code of selection sort
+/*selectionSort(array, size)
+  repeat (size - 1) times
+  set the first unsorted element as the minimum
+  for each of the unsorted elements
+    if element < currentMinimum
+      set element as new minimum
+  swap minimum with first unsorted position
+end selectionSort
+*/
+//actual code implementation using c++#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 
